@@ -1,0 +1,23 @@
+
+.card {
+    margin-bottom: 1px;
+
+    .card-header {
+        background: #495155;
+        color: #eaeaea;
+
+        a {
+            text-decoration: none;
+            color: #eaeaea;
+
+            &.collapsed i {
+                transform: rotate(-180deg);
+            }
+        }
+    }
+    .card-body {
+        border: 1px solid #495155;
+        border-radius: 0 0 5px 5px;
+    }
+} 
+

@@ -1,6 +1,6 @@
 # FaqApp
 
-This is a simple FAQ App built with Angular 4+, Twitter Bootstrap 4, etc. 
+This is a simple FAQ App built with Angular 4+, Twitter Bootstrap 4, Sass/SCSS, etc. 
 
 ## Development server
 
