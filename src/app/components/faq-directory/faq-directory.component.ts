@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { QuestionsService } from '../../services/questions.service';
+import { FAQ } from '../../models/FAQ';
 
 @Component({
   selector: 'faq-questions',
@@ -7,7 +8,7 @@ import { QuestionsService } from '../../services/questions.service';
   styleUrls: ['./faq-directory.component.scss']
 })
 export class FaqDirectoryComponent implements OnInit {
-  faqs: Object[];
+  faqs: FAQ[];
 
   constructor(private questionService: QuestionsService) {
      this.questionService.getQuestions() 

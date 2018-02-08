@@ -7,12 +7,14 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FaqDirectoryComponent } from './components/faq-directory/faq-directory.component';
 
 import { QuestionsService } from './services/questions.service';
+import { FaqComponent } from './components/faq/faq.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    FaqDirectoryComponent
+    FaqDirectoryComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,
