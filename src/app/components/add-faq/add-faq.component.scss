@@ -1,0 +1,17 @@
+.add-faq {
+    &.card {
+        margin-bottom: 20px;
+        border: 1px solid #495155;
+    }
+
+    .card-header {
+        background: #fff;
+        border-bottom: none;
+    }
+
+    .card-block {
+        label {
+            color: #292B2C
+        }
+    }
+}

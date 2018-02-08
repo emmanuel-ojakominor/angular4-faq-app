@@ -20,4 +20,8 @@ export class FaqDirectoryComponent implements OnInit {
   ngOnInit() {
   }
 
+  addFaq(faq: FAQ) {
+    console.log(faq);
+  }
+
 }

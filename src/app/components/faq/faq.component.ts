@@ -8,7 +8,8 @@ import { FAQ } from '../../models/FAQ';
 })
 export class FaqComponent implements OnInit {
   @Input('faq') faq: FAQ;
-  
+  @Input('i') i: number;
+
   constructor() { }
 
   ngOnInit() {
