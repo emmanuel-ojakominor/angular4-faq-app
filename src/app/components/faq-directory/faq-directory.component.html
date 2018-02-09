@@ -1,2 +1,4 @@
-<add-faq (newFaq)="addFaq($event)"></add-faq>
-<faq *ngFor="let faq of faqs; let i = index" [faq]="faq" [i]="i"></faq> 
+<div class="container">
+    <add-faq (newFaq)="addFaq($event)"></add-faq>
+    <faq *ngFor="let faq of faqs; let i = index" [faq]="faq" [i]="i"></faq>                
+</div>

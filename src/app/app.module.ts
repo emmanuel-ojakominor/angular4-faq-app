@@ -10,6 +10,7 @@ import { FaqDirectoryComponent } from './components/faq-directory/faq-directory.
 import { QuestionsService } from './services/questions.service';
 import { FaqComponent } from './components/faq/faq.component';
 import { AddFaqComponent } from './components/add-faq/add-faq.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AddFaqComponent } from './components/add-faq/add-faq.component';
     NavbarComponent,
     FaqDirectoryComponent,
     FaqComponent,
-    AddFaqComponent
+    AddFaqComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

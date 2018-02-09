@@ -3,7 +3,8 @@
   <div class="card">
     <div class="card-header" role="tab">
       <span> {{ i + 1 }}. </span>
-      <span> {{ faq.question}} </span>
+      <span> {{ faq.question}} </span> 
+      <span class="delete-icon fa fa-trash" (click)="deleteFaq(faq)"></span>
       <a data-toggle="collapse" class="collapsed pull-right" data-parent="#accordion" href="#faq{{i}}" aria-expanded="true">
           <i class="fa fa-angle-double-up"></i>
       </a> 

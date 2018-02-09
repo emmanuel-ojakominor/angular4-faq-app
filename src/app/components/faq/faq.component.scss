@@ -1,7 +1,7 @@
 
 .card {
     margin-bottom: 1px;
-
+    border: none;
     .card-header {
         background: #495155;
         color: #eaeaea;
@@ -12,6 +12,12 @@
 
             &.collapsed i {
                 transform: rotate(-180deg);
+            }
+        }
+
+        .delete-icon {
+            &:hover {
+                cursor: pointer;
             }
         }
     }

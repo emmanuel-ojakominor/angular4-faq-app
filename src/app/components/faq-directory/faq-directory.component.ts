@@ -10,18 +10,15 @@ import { FAQ } from '../../models/FAQ';
 export class FaqDirectoryComponent implements OnInit {
   faqs: FAQ[];
 
-  constructor(private questionService: QuestionsService) {
-     this.questionService.getQuestions() 
-        .subscribe(faqs => { 
-            this.faqs = faqs; 
-        });
+  constructor(private questionsService: QuestionsService) {
   }
 
   ngOnInit() {
+    this.faqs = this.questionsService.getQuestions();
   }
 
   addFaq(faq: FAQ) {
-    console.log(faq);
+    this.questionsService.addFaq(faq);
   }
 
 }
